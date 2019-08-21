@@ -1,0 +1,60 @@
+Version 1.0
+
+* Start making SQL connection controller
+
+* Start the desgin of the login form and testing the exsiting connection
+
+* Start the desgin of the 3 window for each user
+
+Version 2.0
+
+* Creating a error handle controller for checking SQL injection
+
+* Creating a database query controller to prevent direct connection via code to the database
+
+Version 3.0
+
+* Making a system checking to check of the system reflect to some error and how the database commit to them
+
+Version 4.0
+
+* Start implementing the window for league managers to fit them to handle the operation of making a changes to the database
+
+Version 5.0
+
+* Creating a static controller to handle all allowed database opertion
+
+* Making a system checking to check the system after created the static controller
+
+* Start the design of the windows that extends other main window
+
+Version 5.5
+
+* Start making the window that will use the Naive Bayes algorithm
+
+* Creating the AlgoCalc controller that will handle the calculation baised on Naive Bayes algorithm
+
+* Testing the implementation of the algorithm to test if there are some calculation error that was not considered
+
+* Finish the design of all system forms windows
+
+* Removing some duplicated code lines or function to improve optimization
+
+Version 6.0
+
+* Create HelpForm with search option, allowing getting help in English and Hebrew language
+
+* Start making an accessibility static controller to allow the user to choocing some controllers property
+
+* Changes the style of main system windows to be more flow, and adding some animations to them
+
+* Remove AdminsManage Form after combine him inside AdminsMain
+
+* Remove ManagerOthersQuerys Form after combine him inside ManagersMain
+
+* Remove BuildMineQueries Form after combine him inside GuestMain
+
+* Create empty form class CircularPicture to allow making circular picturebox images
+
+Version 7.0
+-- Soon...

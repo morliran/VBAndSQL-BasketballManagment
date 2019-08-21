@@ -1,0 +1,5 @@
+If you click on this option you can do this things:
+
+If you click on query section you will see 48 building queries that wait for you mouse click to display their results.
+
+If you click on build query you can build you own query on the players table.

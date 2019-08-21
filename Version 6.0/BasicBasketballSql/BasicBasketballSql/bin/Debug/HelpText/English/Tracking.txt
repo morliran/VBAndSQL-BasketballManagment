@@ -1,0 +1,7 @@
+If you click on this option you can ask the system to track players from all the other teams.
+
+This option help you to set up to 5 searching parameters so you can find the best searching result.
+
+Notice: to allow another track make sure that you have existing tracking table than the button will be enabled.
+
+Also you can save you results into excel sheet, to save the results you must have a tracking result table.

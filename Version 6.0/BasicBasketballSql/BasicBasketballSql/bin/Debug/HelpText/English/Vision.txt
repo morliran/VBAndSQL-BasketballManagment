@@ -1,0 +1,9 @@
+If you click on this option you can ask the system to make game vision when facing other team.
+
+Before starting the vision you need to select the oponnet team, after that the system will automatically add your team name to the oposite box.
+
+When the system see that there are 2 teams, she will check if your team see the oposite team in the past, if yes the system will take care of the previous match results.
+
+After that click on the button to start the vision, please be patient.
+
+When the progressbar will reach to 100% the system will open a new window with the vision results.

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RTB_TeamAUDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can add new team, or update existing team.
+If you select to add new team, there is some things that you should know:
+
+1. You must add an unexisting team name.
+
+2. You must add an unexisting username to the new manager of the newest team.
+
+</value>
+  </data>
+  <data name="RTB_PlayerAUDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can add new player, or update existing player.
+If you select to add new player, there is some things that you should know:
+
+1. You must add an unexisting player code.
+
+2. You must add player brithday by this format only DD/MM/YYYY.
+
+3. You must add player height by this format only 00.00.
+
+</value>
+  </data>
+  <data name="RTB_PlayerDeleteD.Text" xml:space="preserve">
+    <value>If you click on this option you can delete an existing player from some team.
+First you will have to select the team.
+
+After that you will have to click on some table row that has the player details, that you want to delete.
+
+Notice: when you delete a player from the team all his drill grades, roution code, and details will be removed also.
+
+</value>
+  </data>
+  <data name="RTB_AgeBirthDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can see this information about your players:
+
+1. If you click on player age you will see all your player's age's.
+
+2. If you click on upcoming birthday you will see list of players that have in this week birthday.
+Also when you first login into the system, the system automatically check if their is a player
+that have soon birthday, the system will notify you if some players been found.
+
+</value>
+  </data>
+  <data name="RTB_GameAUDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can add new game, or update existing game.
+
+If you choice to add new game or update an existing game:
+
+You will have to add an existing home team code and away team code.
+Otherwise the system will not insert the new game details.
+
+
+</value>
+  </data>
+  <data name="RTB_AddStatsDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can add player game stats.
+This menu option is hidden untill the system check on each day if your team have much, if yes the system will notify you.
+Otherwise this menu option continue been hidden.
+
+Important notice: when you choice yes on popup messeage you must adding all your players stats, when you finish the system returns the option to close the adding game stats window.
+
+
+</value>
+  </data>
+  <data name="RTB_OtherManaDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can see this details:
+
+My team games -&gt; will show you all your team league games.
+
+My home games -&gt; will show you all your team games as home team.
+
+My away games -&gt; will show you all your team games as away team.
+
+All league players -&gt; will show you all the players in the league.
+
+All league teams -&gt; will show you all the teams in the league.
+
+All league games -&gt; will show you all the games in the league.</value>
+  </data>
+  <data name="RTB_DrillsDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can see you players drills grades.
+
+And also update the drill grade by watch player that you will select.
+
+If the player will success 4 times this drill he will get + 1 to his current grade.</value>
+  </data>
+  <data name="RTB_VisionDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can ask the system to make game vision when facing other team.
+
+This vision comapre the probabilty of winning of your team and the opposite team and return the heigher probability.</value>
+  </data>
+  <data name="RTB_TrackDetails.Text" xml:space="preserve">
+    <value>If you click on this option you can ask the system to track players from all the other teams.
+
+This option help you to set up to 5 searching parameters so you can find the best searching result.
+
+Also you can save you results into excel sheet.</value>
+  </data>
+  <data name="RTB_QuestODetails.Text" xml:space="preserve">
+    <value>If you click on this option you can do this things:
+
+If you click on query section you will see 48 building queries that wait for you mouse click to display their results.
+
+If you click on build query you can build you own query on the players table.</value>
+  </data>
+</root>
