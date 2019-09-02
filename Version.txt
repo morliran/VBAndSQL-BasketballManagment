@@ -48,13 +48,22 @@ Version 6.0
 
 * Changes the style of main system windows to be more flow, and adding some animations to them
 
-* Remove AdminsManage Form after combine him inside AdminsMain
+* Combine AdminsManage Form inside AdminsMain
 
-* Remove ManagerOthersQuerys Form after combine him inside ManagersMain
+* Combine ManagerOthersQuerys Form inside ManagersMain
 
-* Remove BuildMineQueries Form after combine him inside GuestMain
+* Combine BuildMineQueries Form inside GuestMain
 
 * Create empty form class CircularPicture to allow making circular picturebox images
 
 Version 7.0
--- Soon...
+
+* Combine QuestQueries Form inside GuestQueriesSections
+
+* Combine AddPlayer, UpdatePlayer, PlayersRoutionForm, PlayersUpcomingBirthday Forms inside ManagersMain
+
+* Combine PlayersDeleteForm Form inside AdminsMain
+
+* Adding the option to see player stats progression on each category through setting max range searcher game type value
+
+* Add the option to set the ManagersMain Form color style by the team color
