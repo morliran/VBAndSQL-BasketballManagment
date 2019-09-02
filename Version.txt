@@ -67,3 +67,5 @@ Version 7.0
 * Adding the option to see player stats progression on each category through setting max range searcher game type value
 
 * Add the option to set the ManagersMain Form color style by the team color
+
+* Add function to set the accessibility design to all system windows
