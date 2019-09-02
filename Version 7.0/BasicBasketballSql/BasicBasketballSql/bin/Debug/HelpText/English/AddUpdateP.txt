@@ -1,0 +1,10 @@
+If you click on this option you can add new player, update existing player to your team only.
+If you select to add new or update player, there is some things that you should know, otherwise the system will not complete the required action:
+
+1. When adding player: you must add an unexisting player code.
+
+2. You must add or update player brithday by this format only DD/MM/YYYY.
+
+3. You must add or update player height by this format only 00.00.
+
+
