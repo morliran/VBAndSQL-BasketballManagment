@@ -1,0 +1,13 @@
+If you click on this option you can see this details:
+
+My team games -> will show you all your team league games.
+
+My home games -> will show you all your team games as home team.
+
+My away games -> will show you all your team games as away team.
+
+All league players -> will show you all the players in the league.
+
+All league teams -> will show you all the teams in the league.
+
+All league games -> will show you all the games in the league.

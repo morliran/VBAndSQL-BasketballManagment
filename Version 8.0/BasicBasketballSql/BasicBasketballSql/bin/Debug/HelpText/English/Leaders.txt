@@ -1,0 +1,13 @@
+If you select this option, you will see the best 5 players in 5 category, and also the best teams in those categories.
+
+The categories are:
+
+Points
+
+Assits
+
+Rebounds
+
+Steels
+
+Blocks
