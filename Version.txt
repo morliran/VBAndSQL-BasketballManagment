@@ -74,8 +74,17 @@ Version 8.0
 
 * Combine Connection Class inside MyDBControler Class
 
-* Changes MyDBControler Class function, and make them close and dispose all the SQL resources that they used
+* Changes MyDBControler class functions, so they now close and dispose all the SQL resources that they used automatically
 
 * Add the option to edit team colors table
 
 * Add the option to search player by statistic untill some game type
+
+Version 9.0
+
+* Combine all previous functions inside GuestSectionQuerysControl to one spesific function
+
+* Moving main forms colors design to all his sub forms
+
+* Start working on system with Heroku remote website and clearDB
+
