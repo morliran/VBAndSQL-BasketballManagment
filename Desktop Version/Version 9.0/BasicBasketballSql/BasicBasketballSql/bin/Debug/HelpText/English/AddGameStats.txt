@@ -1,0 +1,9 @@
+If you click on this option you can add player game stats.
+
+If your league manager you can add those stats in each time that you want.
+
+If your team manager, this menu option is hidden untill the system check on each day if your team have much, if yes the system will notify you with text in your main managment window
+
+Important notice: when you choice yes on popup messeage you must adding all your players stats, when you finish the system returns the option to close the adding game stats window.
+
+

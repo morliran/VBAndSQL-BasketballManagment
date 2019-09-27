@@ -1,0 +1,8 @@
+If you click on this option you can see this information about your players:
+
+1. If you click on player age you will see all your player's age's.
+
+2. If you click on upcoming birthday you will see list of players that have birthday on range of 7 days from the current day that you checking.
+Also when you first login into the system, the system automatically check if their is a player
+that have soon birthday, the system will notify you if some players been found.
+

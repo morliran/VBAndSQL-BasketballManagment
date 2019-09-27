@@ -1,0 +1,10 @@
+If you click on this option you can see you players drills grades.
+
+And also update the drill grade by watch player that you will select, the drill type and the drill goal witch means how much balls you give to him.
+
+After selecting the drill type, the system automatically create a inside your program folder with your team name and inside her another folder with the drill type.
+And inside the drill type folder the system will create a file with the player name, this file will keeps the success values of the player in this drill type.
+
+If the system will find that the player made this drill 4 time and the sum of his success values are heigher that his current grade.
+
+The system will automatically update his current grade to current grade + 1.
