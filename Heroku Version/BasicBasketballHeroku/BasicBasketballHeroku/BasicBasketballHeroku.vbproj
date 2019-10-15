@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56D34246-7583-4C09-85C1-2824AE8CA35D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BasicBasketballHeroku.My.MyApplication</StartupObject>
+    <RootNamespace>BasicBasketballHeroku</RootNamespace>
+    <AssemblyName>BasicBasketballHeroku</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BasicBasketballHeroku.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BasicBasketballHeroku.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.17.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accessibility.vb" />
+    <Compile Include="AdminsMain.Designer.vb">
+      <DependentUpon>AdminsMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminsMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckingGameDates.vb" />
+    <Compile Include="CircularPicture.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ClassCheckManager.vb" />
+    <Compile Include="DrillWatch.Designer.vb">
+      <DependentUpon>DrillWatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DrillWatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamesVisionAlgo.Designer.vb">
+      <DependentUpon>GamesVisionAlgo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GamesVisionAlgo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamesVisionsMyTeamVsOthers.Designer.vb">
+      <DependentUpon>GamesVisionsMyTeamVsOthers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GamesVisionsMyTeamVsOthers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuestMain.Designer.vb">
+      <DependentUpon>GuestMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuestMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuestQueriesSections.Designer.vb">
+      <DependentUpon>GuestQueriesSections.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuestQueriesSections.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuestSectionQuerysControl.vb" />
+    <Compile Include="HelpForm.Designer.vb">
+      <DependentUpon>HelpForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeagueLeaders.Designer.vb">
+      <DependentUpon>LeagueLeaders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueLeaders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainView.Designer.vb">
+      <DependentUpon>MainView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagersMain.Designer.vb">
+      <DependentUpon>ManagersMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagersMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MerrorControl.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyDBControler.vb" />
+    <Compile Include="PlayersMatchStatistics.Designer.vb">
+      <DependentUpon>PlayersMatchStatistics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PlayersMatchStatistics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatsCompares.Designer.vb">
+      <DependentUpon>StatsCompares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StatsCompares.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrackPlayers.Designer.vb">
+      <DependentUpon>TrackPlayers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TrackPlayers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminsMain.resx">
+      <DependentUpon>AdminsMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrillWatch.resx">
+      <DependentUpon>DrillWatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamesVisionAlgo.resx">
+      <DependentUpon>GamesVisionAlgo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamesVisionsMyTeamVsOthers.resx">
+      <DependentUpon>GamesVisionsMyTeamVsOthers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestMain.resx">
+      <DependentUpon>GuestMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestQueriesSections.resx">
+      <DependentUpon>GuestQueriesSections.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeagueLeaders.resx">
+      <DependentUpon>LeagueLeaders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainView.resx">
+      <DependentUpon>MainView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagersMain.resx">
+      <DependentUpon>ManagersMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayersMatchStatistics.resx">
+      <DependentUpon>PlayersMatchStatistics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsCompares.resx">
+      <DependentUpon>StatsCompares.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackPlayers.resx">
+      <DependentUpon>TrackPlayers.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\access.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BneiRavBariachHerzliya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorpicker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HapoelBeerShevaBneiShimon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HapoelGilboaGalil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HapoelJerusalem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HapoelMallHayamEilat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HapoelTelAviv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HapoelUnetHolon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IroniHaiMotorsNesZiona.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IroniNahariya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaccabiAshdodBeerTuvia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaccabiFoxTelAviv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaccabiILANDTVRishonLezion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

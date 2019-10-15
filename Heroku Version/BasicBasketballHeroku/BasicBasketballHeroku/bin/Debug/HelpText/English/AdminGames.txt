@@ -1,0 +1,7 @@
+If you click on this option you can add new game, or update existing game.
+
+If you choice to add new game or update an existing game:
+
+You will have to add an existing home team code and away team code, otherwise the system will not insert the new game details .1.
+
+2. Team cant see her self in a match.

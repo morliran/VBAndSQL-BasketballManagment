@@ -1,0 +1,17 @@
+If you select this option, you will see the best 5 players in 5 category, and also the best 12 teams in those categories.
+
+The categories are:
+
+Points
+
+Assits
+
+Rebounds
+
+Steels
+
+Blocks
+
+If you click on league change option you will see all the managers changes to some database tables.
+
+
