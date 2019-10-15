@@ -88,3 +88,9 @@ Version 9.0
 
 * Start working on system with Heroku remote website and clearDB
 
+Version 10.0
+
+* Release the system with Heroku remote website and clearDB
+
+* Combine AlgoCalc Class inside GamesVisionAlgo Form
+
