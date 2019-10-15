@@ -1,0 +1,2 @@
+If you click on this option you can see all your player roution code.
+And also update them by change player roution code by other one.

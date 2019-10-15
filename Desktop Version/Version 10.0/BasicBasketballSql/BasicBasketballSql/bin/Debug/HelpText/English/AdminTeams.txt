@@ -1,0 +1,7 @@
+If you click on this option you can add new team, or update existing team.
+If you select to add new team, there is some things that you should know:
+
+1. You must add an unexisting team name.
+
+2. You must add an unexisting username to the new manager of the newest team.
+

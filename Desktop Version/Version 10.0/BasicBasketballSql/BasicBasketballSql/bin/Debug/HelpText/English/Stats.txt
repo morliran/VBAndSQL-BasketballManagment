@@ -1,0 +1,2 @@
+If you click on this option you can see all your player game stats.
+And also comapre there stats with other team player or with them self, after that you will select game type, you will get the option to make compare to your selected player by some category and untill some game type.
